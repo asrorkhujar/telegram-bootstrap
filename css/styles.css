@@ -1,0 +1,292 @@
+
+/* MENU-MODAL */
+
+.telegram-chats__name, .telegram-chats__info {
+  width: 210px;
+}
+
+.telegram-chats__texts {
+  color: #000;
+}
+
+.active .telegram-chats__texts {
+  color: #fff;
+}
+
+.telegram-chats__info-span {
+  color: blue;
+}
+
+.active .telegram-chats__info-span {
+  color: #fff;
+}
+
+.channels::before {
+display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url("../img/ic-channel.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin-right: 10px;
+}
+
+.bots::before {
+  display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url("../img/ic-bot.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin-right: 10px;
+}
+.tg-groups::before {
+  display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url("../img/ic-group.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin-right: 10px;
+}
+
+.tg-menu-modal__modal-dialog {
+  width: 25%!important;
+}
+
+.modal-settings-wrapper {
+height: 80vh;
+}
+
+.tg-menu-modal.fade .modal-dialog {
+  transform: translateX(-100%);
+}
+
+.tg-menu-modal.fade.show .modal-dialog {
+  transform: translateX(0);
+}
+
+
+.main__details-btn {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+}
+
+.main__details-btn--search {
+  background-image: url("../img/icon-search.svg");
+}
+.main__details-btn--voicechat {
+  background-image: url("../img/voice-chat.svg");
+}
+
+.main__details-btn--sidebar {
+  background-image: url("../img/icon-sidebar-toggle.svg");
+}
+
+.main__details-btn--more {
+  background-image: url("../img/icon-more.svg");
+}
+
+.main__details-btn--attach {
+  background-image: url("../img/icon-attach.svg");
+}
+
+.main__details-btn--sticker {
+  background-image: url("../img/icon-smile.svg");
+}
+
+.main__details-btn--voice {
+  background-image: url("../img/icon-voice.svg");
+}
+
+.main__bottom {
+  bottom: 0;
+}
+
+.main__bottom-field:focus {
+  box-shadow: initial;
+}
+
+.main__title {
+  max-width: 410px;
+}
+
+.dropleft .dropdown-toggle::before {
+  display: none;
+}
+
+/* MESSAGES */
+
+.messages {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-image: url("../img/bg-chat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.message {
+  max-width: 60%;
+}
+
+.message__content {
+  position: relative;
+}
+
+.message--you {
+  align-self: flex-start;
+}
+
+.message--you .message__content::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -14px;
+  width: 20px;
+  height: 18px;
+  background-image: url("../img/icon-tail.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.message__author {
+  font-weight: 500;
+}
+
+.messages__badge {
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #6d8d4166;
+}
+
+.message__time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.message__reply {
+  padding-left: 10px;
+  border-left: 2px solid #000;
+  cursor: pointer;
+}
+
+.message__reply-title {
+  font-size: 14px;
+}
+
+.message__reply-text {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.message--me {
+  align-self: flex-end;
+}
+
+/* .messages__footer {
+  bottom: 80px;
+  left: 0;
+  background-color: #fff;
+} */
+
+/* CHAT FOOTER */
+.chat__panel{
+  width: 100%;
+  z-index: 999;
+  height: 10vh!important;
+}
+
+.input-file{
+  display: none;
+}
+
+.txt-message{
+  resize: none;
+  outline: none;
+}
+
+.btn-file{
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: url("../img/file-attach-icon.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.btn-emojis{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url("../img/smile-icon.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-record-audio{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url("../img/voice-icon.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* CHAT-PINNED */
+.main__chat-pinned-message{
+  top: 80px;
+  left: 0px;
+  padding-left: 15px;
+  padding-right: 25px;
+  z-index: 100;
+}
+
+.main__chat-pinned-message__message{
+  width: 90%;
+}
+
+.main__chat-btn-pinned{
+  width: 22px;
+  height: 22px;
+  background-image: url("../img/ic-pin.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* fill {
+  color: #ababab;
+} */
+
+/* TELEGRAM_STICKERS */
+
+.telegram-sticker__nav {
+  height: 5vh !important;
+}
+.tab-pane__emoji {
+  height: 87vh !important;
+}
+
+.emojis__nav {
+  height: 8vh !important;
+}
+

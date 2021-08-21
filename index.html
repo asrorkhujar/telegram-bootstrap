@@ -1,0 +1,2397 @@
+<!doctype html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Telegram</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column h-100 overflow-hidden">
+
+  <main>
+    <div>
+      <h1 class="sr-only">Telegram</h1>
+      <div class="row no-gutters">
+
+        <!-- TELEGRAM-CHATS -->
+        <div class="col-md-3 position-relative">
+
+          <!-- CHATS-HEADER -->
+          <div class="d-flex align-items-center w-100 py-2">
+
+            <!-- HEADER-MENU-BUTTON -->
+            <button class="btn" aria-label="Telegram menu button" type="button" data-toggle="modal" data-target="#tg-menu">
+              <img src="img/ic-menu.svg" alt="icon telegram menu" width="25" height="25">
+            </button>
+
+            <!-- HEADER-FORM -->
+            <form class="w-100" action="https://echo.htmlacademy.ru" method="GET">
+              <div class="form-group m-0">
+                <input type="search" class="form-control" name="telegram_search" id="tg-header-search" placeholder="Search" aria-label="Telegram search form">
+              </div>
+            </form>
+
+            <!-- HEADER-LOCK-BUTTON -->
+            <button class="btn" type="button" data-toggle="modal" data-target="#tg-lock" aria-label="Telegram lock button">
+              <img src="img/lock.svg" alt="icon telegram lock" width="25" height="25">
+            </button>
+          </div>
+
+
+
+          <!-- TELEGRAM-CHATS-LIST -->
+          <div class="telegram-chats vh-100 overflow-auto d-flex flex-column bg-white">
+
+            <ul class="nav nav-pills mb-3 flex-column" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active rounded-0" id="saved_messages-tab" data-toggle="pill" href="#saved_messages" role="tab" aria-controls="saved_messages" aria-selected="true">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/icon-saved-message.svg" alt="photo saved messages" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="telegram-chats__name h6 text-truncate d-block">Saved Messages</h3>
+                        <time class="text-secondary" datetime="09:30">9:30</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span>
+                          <img src="img/ic-pin.svg" alt="icon pin">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-channel-toshkent.jpg" alt="photo Tashkent channel" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name channels h6 text-truncate d-block">"Toshkent" telekanali</h3>
+                        <time class="text-secondary" datetime="12:30">12:30</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span>
+                          <img src="img/ic-pin.svg" alt="icon pin">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-channel-trol.jpg" alt="photo trol.uz" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name channels h6 text-truncate d-block">Trol.uz</h3>
+                        <time class="text-secondary" datetime="2021-08-18">Yesterday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span>
+                          <img src="img/ic-pin.svg" alt="icon pin">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-channel.jpg" alt="photo channel dasturlash" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name bots h6 text-truncate d-block">Dasturlash</h3>
+                        <time class="text-secondary" datetime="2021-08-17">Tuesday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">GIF</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span class="bg-info text-white px-1 rounded-circle">
+                          39
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-toshkenthokim.jpg" alt="photo group" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name tg-groups h6 text-truncate d-block">Huquqiy axborot</h3>
+                        <time class="text-secondary" datetime="2021-08-17">Monday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">Photo</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span class="bg-secondary text-white px-1 rounded-circle">
+                          15
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-mfaktor.jpg" alt="photo group" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name tg-groups h6 text-truncate d-block">MFaktor</h3>
+                        <time class="text-secondary" datetime="2021-08-17">Friday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">Photo,</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span class="bg-secondary text-white px-1 rounded-circle">
+                          105
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-mdk.jpg" alt="photo group" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name channels h6 text-truncate d-block">MDK</h3>
+                        <time class="text-secondary" datetime="2021-08-17">Monday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">Photo,</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span class="bg-secondary text-white px-1 rounded-circle">
+                          15
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/user-photo.jpg" alt="photo group" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name h6 text-truncate d-block">Asrorxuja</h3>
+                        <time class="text-secondary" datetime="13:00">13:00</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span class="bg-secondary text-white px-1 rounded-circle">
+                          15
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-channel-toshkent.jpg" alt="photo Tashkent channel" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name channels h6 text-truncate d-block">"Toshkent" telekanali</h3>
+                        <time class="text-secondary" datetime="12:30">12:30</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span>
+                          <img src="img/ic-pin.svg" alt="icon pin">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <div class="row no-gutters align-items-center mb-3">
+                    <div class="col-2">
+                      <img class="img-fluid rounded-circle bg-info" src="img/photo-channel-trol.jpg" alt="photo trol.uz" width="40" height="40">
+                    </div>
+
+                    <div class="col-10 telegram-chats__texts">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <h3 class="d-flex align-items-center telegram-chats__name channels h6 text-truncate d-block">Trol.uz</h3>
+                        <time class="text-secondary" datetime="2021-08-18">Yesterday</time>
+                      </div>
+
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <p class="telegram-chats__info m-0 text-truncate d-block"><span class="telegram-chats__info-span mr-1">You:</span>1212154564 Lorem ipsum, dolor</p>
+                        </div>
+                        <span>
+                          <img src="img/ic-pin.svg" alt="icon pin">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+
+        <!-- TELEGRAM-CHAT -->
+
+        <div class="telegram-chats col-md-6 border-left p-0 position-relative">
+          <div class="main">
+            <h2 class="sr-only">Chat main</h2>
+            <div class="tab-content" id="pills-tabContent">
+
+              <div class="tab-pane fade show active" id="saved_messages" role="tabpanel" aria-labelledby="saved_messages-tab">
+                <div class="main__header d-flex align-items-center w-100 py-2 position-relative">
+
+                  <!-- CHAT-HEADER -->
+                  <!-- HEADER-TITLE-->
+                  <!-- Channel info Button trigger modal -->
+                  <button class="btn text-left w-100" type="button" data-toggle="modal" data-target="#channel-info-modal">
+                    <h5>Saved Messages</h5>
+                    <span class="text-secondary">1 member</span>
+                  </button>
+
+                  <!-- RIGHT BUTTONS -->
+                  <div class="main__details d-flex">
+                    <button class="main__details-btn main__details-btn--search btn mr-2" type="button"
+                    aria-label="Search"></button>
+
+                    <button class="main__details-btn main__details-btn--voicechat btn mr-2" type="button" data-toggle="modal" data-target="#voice_chat_modal">
+                    </button>
+
+                    <button class="main__details-btn main__details-btn--sidebar btn mr-2" type="button"
+                    aria-label="Open sidebar"></button>
+
+                    <div class="dropdown dropleft">
+                      <button class="dropdown-toggle main__details-btn main__details-btn--more btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">View group info</a>
+                        <a class="dropdown-item" href="#">Disable notifications</a>
+                        <a class="dropdown-item" href="#">Manage group</a>
+                        <a class="dropdown-item" href="#">Add members</a>
+                        <a class="dropdown-item" href="#">Create poll</a>
+                        <a class="dropdown-item" href="#">Export chat history</a>
+                        <a class="dropdown-item" href="#">Leave group</a>
+                        <a class="dropdown-item" href="#">Clear history</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a href="#">
+                    <div class="main__chat-pinned-message position-absolute bg-white d-flex align-items-center justify-content-between w-100 py-2 border">
+                      <div class="d-flex flex-column align-items-start justify-content-between w-100">
+                        <span class="text-primary font-weight-bold">Pinned message</span>
+                        <p class="main__chat-pinned-message__message text-dark d-block text-truncate m-0">80-dars-20.08.2021 Bootstrap 4 dan Imtihon 1.Chatlar-19.08.2021-15:00-15:15 ZIP-oddiy chat, kanallar botlarx </p>
+                      </div>
+                      <button class="main__chat-btn-pinned border-0 bg-transparent flex-shrink-0"></button>
+                    </div>
+                  </a>
+
+                </div>
+
+                <div class="">
+                  <div class="messages vh-80 overflow-auto px-2 d-flex flex-column align-items-lg-center position-relative">
+                    <span class="messages__badge badge badge-pill text-white p-2 mb-2">August 20</span>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="./img/photo-toshkenthokim.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Admin</span>
+                        <p class="m-0"><a href="#">@asror_akmalovich</a>, <a href="#">@admin_uz</a> guruhda yozilgan ma'lumotlarni yaxshilab ko'rib chiqinglar
+                        </p>
+                        <span class="message__time text-secondary">09:14</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Jafar</span>
+                        <p class="m-0">Assalomu alaykum hop bo'ladi</p>
+                        <span class="message__time text-secondary">09:30</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-toshkent.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Toshkent tv</span>
+                        <p class="m-0">Xabarlarni ko'rdingizmi?</p>
+                        <span class="message__time text-secondary">09:35</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Toshkent tv</span>
+                          <div class="message__reply-text">Xabarlarni ko'rdingizmi?</div>
+                        </div>
+                        <p class="m-0">Ha, javoblarni yuborib qo'ydim</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Jafar</span>
+                          <div class="message__reply-text">Assalomu alaykum hop bo'ladi</div>
+                        </div>
+                        <p class="m-0">Rahmat 👌</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+
+                    <div class="message message--me d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/user-photo.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Asror Akmalovich</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Trol.uz</span>
+                          <div class="message__reply-text">Ha, javoblarni yuborib qo'ydim</div>
+                        </div>
+                        <p class="m-0">Yaxshi 👍</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div class="chat__panel w-100 bg-white p-2">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center m-0">
+                          <input type="file" class="input-file form-control">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+
+                      <textarea class="txt-message flex-grow-1 border-0 px-2" name="message" cols="30" rows="1" placeholder="Write your message here"></textarea>
+
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="tab-pane fade show active" id="tashkentchannel_messages" role="tabpanel" aria-labelledby="tashkentchannel_messages-tab">
+                <div class="main__header d-flex align-items-center w-100 py-2">
+
+                  <!-- CHAT-HEADER -->
+                  <!-- HEADER-TITLE-->
+                  <!-- Channel info Button trigger modal -->
+                  <button class="btn text-left w-100" type="button" data-toggle="modal" data-target="#channel-info-modal">
+                    <h5>Tashkent channel</h5>
+                    <span class="text-secondary">1251 member</span>
+                  </button>
+
+                  <!-- RIGHT BUTTONS -->
+                  <div class="main__details d-flex">
+                    <button class="main__details-btn main__details-btn--search btn mr-2" type="button"
+                    aria-label="Search"></button>
+
+                    <button class="main__details-btn main__details-btn--voicechat btn mr-2" type="button" data-toggle="modal" data-target="#voice_chat_modal">
+                    </button>
+
+                    <button class="main__details-btn main__details-btn--sidebar btn mr-2" type="button"
+                    aria-label="Open sidebar"></button>
+
+                    <div class="dropdown dropleft">
+                      <button class="dropdown-toggle main__details-btn main__details-btn--more btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">View group info</a>
+                        <a class="dropdown-item" href="#">Disable notifications</a>
+                        <a class="dropdown-item" href="#">Manage group</a>
+                        <a class="dropdown-item" href="#">Add members</a>
+                        <a class="dropdown-item" href="#">Create poll</a>
+                        <a class="dropdown-item" href="#">Export chat history</a>
+                        <a class="dropdown-item" href="#">Leave group</a>
+                        <a class="dropdown-item" href="#">Clear history</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="">
+                  <div class="messages vh-80 overflow-auto px-2 d-flex flex-column align-items-lg-center position-relative">
+                    <span class="messages__badge badge badge-pill text-white p-2 mb-2">August 20</span>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="./img/photo-toshkenthokim.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Admin</span>
+                        <p class="m-0"><a href="#">@asror_akmalovich</a>, <a href="#">@admin_uz</a> guruhda yozilgan ma'lumotlarni yaxshilab ko'rib chiqinglar
+                        </p>
+                        <span class="message__time text-secondary">09:14</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Jafar</span>
+                        <p class="m-0">Assalomu alaykum hop bo'ladi</p>
+                        <span class="message__time text-secondary">09:30</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-toshkent.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Toshkent tv</span>
+                        <p class="m-0">Xabarlarni ko'rdingizmi?</p>
+                        <span class="message__time text-secondary">09:35</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Toshkent tv</span>
+                          <div class="message__reply-text">Xabarlarni ko'rdingizmi?</div>
+                        </div>
+                        <p class="m-0">Ha, javoblarni yuborib qo'ydim</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Jafar</span>
+                          <div class="message__reply-text">Assalomu alaykum hop bo'ladi</div>
+                        </div>
+                        <p class="m-0">Rahmat 👌</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+
+                    <div class="message message--me d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/user-photo.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Asror Akmalovich</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Trol.uz</span>
+                          <div class="message__reply-text">Ha, javoblarni yuborib qo'ydim</div>
+                        </div>
+                        <p class="m-0">Yaxshi 👍</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div class="chat__panel w-100 bg-white p-2">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center">
+                          <input type="file" class="input-file form-control">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+
+                      <textarea class="txt-message flex-grow-1 border-0 px-2" name="message" cols="30" rows="1" placeholder="Write your message here"></textarea>
+
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+
+            </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="tab-pane fade show active" id="troluz_messages" role="tabpanel" aria-labelledby="troluz_messages-tab">
+                <div class="main__header d-flex align-items-center w-100 py-2">
+
+                  <!-- CHAT-HEADER -->
+                  <!-- HEADER-TITLE-->
+                  <!-- Channel info Button trigger modal -->
+                  <button class="btn text-left w-100" type="button" data-toggle="modal" data-target="#channel-info-modal">
+                    <h5>Trol.uz</h5>
+                    <span class="text-secondary">80k member</span>
+                  </button>
+
+                  <!-- RIGHT BUTTONS -->
+                  <div class="main__details d-flex">
+                    <button class="main__details-btn main__details-btn--search btn mr-2" type="button"
+                    aria-label="Search"></button>
+
+                    <button class="main__details-btn main__details-btn--voicechat btn mr-2" type="button" data-toggle="modal" data-target="#voice_chat_modal">
+                    </button>
+
+                    <button class="main__details-btn main__details-btn--sidebar btn mr-2" type="button"
+                    aria-label="Open sidebar"></button>
+
+                    <div class="dropdown dropleft">
+                      <button class="dropdown-toggle main__details-btn main__details-btn--more btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">View group info</a>
+                        <a class="dropdown-item" href="#">Disable notifications</a>
+                        <a class="dropdown-item" href="#">Manage group</a>
+                        <a class="dropdown-item" href="#">Add members</a>
+                        <a class="dropdown-item" href="#">Create poll</a>
+                        <a class="dropdown-item" href="#">Export chat history</a>
+                        <a class="dropdown-item" href="#">Leave group</a>
+                        <a class="dropdown-item" href="#">Clear history</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="">
+                  <div class="messages overflow-auto px-2 d-flex flex-column align-items-lg-center position-relative">
+                    <span class="messages__badge badge badge-pill text-white p-2 mb-2">August 20</span>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="./img/photo-toshkenthokim.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Admin</span>
+                        <p class="m-0"><a href="#">@asror_akmalovich</a>, <a href="#">@admin_uz</a> guruhda yozilgan ma'lumotlarni yaxshilab ko'rib chiqinglar
+                        </p>
+                        <span class="message__time text-secondary">09:14</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Jafar</span>
+                        <p class="m-0">Assalomu alaykum hop bo'ladi</p>
+                        <span class="message__time text-secondary">09:30</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-toshkent.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Toshkent tv</span>
+                        <p class="m-0">Xabarlarni ko'rdingizmi?</p>
+                        <span class="message__time text-secondary">09:35</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40" height="40"
+                        alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Toshkent tv</span>
+                          <div class="message__reply-text">Xabarlarni ko'rdingizmi?</div>
+                        </div>
+                        <p class="m-0">Ha, javoblarni yuborib qo'ydim</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+                    <div class="message message--you d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/photo-channel-trol.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Trol.uz</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Jafar</span>
+                          <div class="message__reply-text">Assalomu alaykum hop bo'ladi</div>
+                        </div>
+                        <p class="m-0">Rahmat 👌</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+
+
+                    <div class="message message--me d-flex align-items-end mb-3">
+                      <a href="#">
+                        <img class="message__avatar rounded-circle mr-3" src="img/user-photo.jpg" width="40"
+                        height="40" alt="Avatar photo">
+                      </a>
+                      <div class="message__content bg-white rounded-lg p-2 pb-4">
+                        <span class="message__author text-success">Asror Akmalovich</span>
+                        <div class="message__reply mt-1 mb-2">
+                          <span class="message__reply-title message__author text-danger">Trol.uz</span>
+                          <div class="message__reply-text">Ha, javoblarni yuborib qo'ydim</div>
+                        </div>
+                        <p class="m-0">Yaxshi 👍</p>
+                        <span class="message__time text-secondary">09:36</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div class="chat__panel w-100 bg-white p-2">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center">
+                          <input type="file" class="input-file form-control">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+
+                      <textarea class="txt-message flex-grow-1 border-0 px-2" name="message" cols="30" rows="1" placeholder="Write your message here"></textarea>
+
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TELEGRAM-STICKERS -->
+
+      <div class="telegram-stickers col-md-3 vh-100 p-0 d-flex flex-column bg-white">
+
+        <nav class="telegram-sticker__nav">
+          <div class="nav nav-tabs d-flex align-items-center w-100 border-0 p-2" id="nav-tab" role="tablist">
+            <a class="nav-link active flex-grow-1 border-0" id="emoji-tab" data-toggle="tab" href="#emoji" role="tab" aria-controls="emoji" aria-selected="true">EMOJI</a>
+            <a class="nav-link flex-grow-1 border-0" id="stickers-tab" data-toggle="tab" href="#stickers" role="tab" aria-controls="stickers" aria-selected="false">STICKERS</a>
+            <a class="nav-link flex-grow-1 border-0" id="gifs-tab" data-toggle="tab" href="#gifs" role="tab" aria-controls="gifs" aria-selected="false">GIFS</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="emoji" role="tabpanel" aria-labelledby="emoji-tab">
+
+            <div class="tab-pane__emoji position-relative overflow-auto">
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-1">Recently used</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤣</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">😊</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">✔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">✌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💖</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤷‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍👤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌹</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-2">People</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤣</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">😊</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😋</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😫</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥱</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤩</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤐</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🙄</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤣</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">😊</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😋</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😫</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥱</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤩</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤐</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🙄</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😳</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-3">Nature</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐵</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🐴</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐮</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦝</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐻</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦧</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐩</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐠</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐵</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🐴</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐮</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦝</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐻</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦧</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐩</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐠</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-4">Food & Drink</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">🍕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌭</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍿</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🧂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍣</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍼</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍚</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍦</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍑</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥩</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">🍕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌭</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍿</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🧂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍣</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍼</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍚</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥯</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍦</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍑</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🍤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥩</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-5">Activity</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">⚽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⚾</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤿</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🛶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛷</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏅</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤷‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎱</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍👤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">⚽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⚾</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤿</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🛶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛷</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏅</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👏</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤦‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🤷‍♂️</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎱</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍👤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🥌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌹</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-6">Travel & Places</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">🚗</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🚑</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚚</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚘</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚖</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛵</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚦</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">🚗</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚓</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚕</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🚑</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚚</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚘</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚖</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🦽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛵</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚇</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚀</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚦</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-7">Objects</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1">📳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🖥</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🎁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎭</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎢</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎄</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🔧</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🔉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎻</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍👤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1">📳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🖥</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎞</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🎁</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎭</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎢</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎄</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎂</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛒</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📽</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">📟</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎬</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎹</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🔧</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🔉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎻</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍👤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🐱‍🏍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😃</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🎶</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🌹</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-3 p-3" >
+                <h4 class="h6 pl-3" id="list-item-8">Symbols & Flags</h4>
+                <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">❤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧡</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💝</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">💌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💥</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💨</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🕳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☪</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☮</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🕉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛐</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♊</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♋</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">✴</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🈺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🈲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⛔</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">❤</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🧡</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💛</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💜</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💝</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">💌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💥</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">💨</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🕳</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☪</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">☮</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🕉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🛐</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♈</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♉</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♊</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♋</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♍</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">♎</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">✴</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🈺</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🈲</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❌</button>
+                  </li>
+                  <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                    <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⛔</button>
+                  </li>
+                </ul>
+              </div>
+
+
+            </div>
+
+
+            <div class="emojis__nav d-flex align-items-center h-100 list-group flex-row border-0 position-relative p-0 bg-light rounded-0" id="list-example">
+              <a class="emojis__nav-link p-0 link-recenty-used list-group-item list-group-item-action bg-transparent border-0" href="#list-item-1"><img src="img/clock.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-people list-group-item list-group-item-action bg-transparent border-0" href="#list-item-2"><img src="img/ic-smile.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-nature list-group-item list-group-item-action bg-transparent border-0" href="#list-item-3"><img src="img/cat.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-food list-group-item list-group-item-action bg-transparent border-0" href="#list-item-4"><img src="img/apple.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-activity list-group-item list-group-item-action bg-transparent border-0" href="#list-item-5"><img src="img/ball.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-travel list-group-item list-group-item-action bg-transparent border-0" href="#list-item-6"><img src="img/car.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-objects list-group-item list-group-item-action bg-transparent border-0" href="#list-item-7"><img src="img/light.svg" alt="icon smile" width="30" height="30"></a>
+
+              <a class="emojis__nav-link p-0 link-symbols list-group-item list-group-item-action bg-transparent border-0" href="#list-item-8"><img src="img/heart.svg" alt="icon smile" width="30" height="30"></a>
+            </div>
+
+          </div>
+
+          <!-- TAB-STICKERS -->
+          <div class="tab-pane fade p-4" id="stickers" role="tabpanel" aria-labelledby="stickers-tab">
+            <div class="d-flex align-items-center flex-wrap">
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=1" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=2" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=3" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=4" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB-GIFS -->
+          <div class="tab-pane fade p-4" id="gifs" role="tabpanel" aria-labelledby="gifs-tab">
+            <div class="d-flex align-items-center flex-wrap">
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=5" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=6" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=7" alt="">
+                </a>
+              </div>
+              <div class="mr-2 mb-2">
+                <a href="#">
+                  <img src="https://picsum.photos/100/100?random=8" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- MENU-MODAL -->
+<div class="tg-menu-modal modal fade position-absolute w-75" id="tg-menu">
+  <div class="tg-menu-modal__modal-dialog modal-dialog m-0">
+    <div class="modal-content vh-100 overflow-auto">
+      <div class="modal-body p-0 rounded-0">
+
+        <div class="bg-info">
+          <div class="d-flex align-items-center justify-content-between p-3">
+            <img class="rounded-circle d-block" src="img/user-photo.jpg" alt="user photo" width="60" height="60">
+            <img class="d-block" src="img/bookmark_white.svg" alt="icon bookmark" width="30" height="30">
+          </div>
+
+          <div>
+
+            <a class="btn d-flex align-items-center justify-content-between text-white p-3 collapsed" data-toggle="collapse" href="#new-account" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <div class="d-flex flex-column align-items-start">
+                <p class="mb-0 font-weight-bold">Asrorxuja</p>
+                <span>+998 97 7073661</span>
+              </div>
+              <img src="img/arrow-down.svg" alt="butoon toogle user account" width="30" height="30">
+            </a>
+
+            <div class="collapse bg-white" id="new-account">
+              <div class="card card-body border-bottom rounded-0">
+                <div class="d-flex align-items-center mt-2">
+                  <img class="d-block mr-3 rounded-circle" src="img/user-photo.jpg" alt="Photo of user" width="30" height="30">
+                  <h4 class="h6 text-dark mb-0">Asror Akmalovich</h4>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="d-block mr-3 rounded-circle" src="img/ic-add-account.svg" alt="Photo of user" width="30" height="30">
+                  <h4 class="h6 text-dark mb-0">Add Account</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-settings-wrapper p-3 d-flex flex-column justify-content-between">
+          <div class="">
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-group.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Group</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-channel.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Channel</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-person.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">New Contacts</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-call.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">Calls</h4>
+            </a>
+            <a class="d-flex align-items-center mt-3 text-decoration-none" href="#">
+              <img class="d-block mr-3 rounded-circle" src="img/ic-settings.svg" alt="Photo of user" width="30" height="30">
+              <h4 class="h6 text-dark mb-0">Settings</h4>
+            </a>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <a class="d-flex align-items-center text-decoration-none" href="#">
+                <img class="d-block mr-3 rounded-circle" src="img/ic-moon.svg" alt="Photo of user" width="30" height="30">
+                <h4 class="h6 text-dark mb-0">Night Mode</h4>
+              </a>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <a class="text-secondary" href="#">
+              <p class="mb-1">Telegram Desktop</p>
+            </a>
+            <a class="text-secondary" href="#">
+              <p class="mb-1">Version 2.8.10 - About</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TG-MODAL-LOCK -->
+<div class="modal fade bg-white" id="tg-lock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm vh-100">
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+
+      </div>
+      <div class="modal-body border-0">
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <div class="form-group m-0">
+            <div class="mb-5">
+              <h4 class="h5 font-weight-normal">Enter your local passcode</h4>
+            </div>
+            <input type="password" class="form-control" name="telegram_password" id="tg-password" placeholder="Your passcode" aria-label="Telegram password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer d-flex flex-column border-0">
+        <button type="button" class="btn btn-primary p-3 font-weight-bold w-100">SUBMIT</button>
+        <button type="button" class="btn d-block p-3 font-weight-bold w-100" data-dismiss="modal">Log out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Channel-info Modal -->
+<div class="channel-info-modal modal fade" id="channel-info-modal" tabindex="-1" aria-labelledby="channel-info-modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title font-weight-bold text-black-50" id="channel-info-modalLabel">Channel info</h5>
+
+        <div class="d-flex align-items-center">
+          <div class="dropdown dropleft">
+            <button class="dropdown-toggle main__details-btn main__details-btn--more btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Add members</a>
+              <a class="dropdown-item" href="#">Create poll</a>
+              <a class="dropdown-item" href="#">Export chat history</a>
+              <a class="dropdown-item" href="#">Leave group</a>
+              <a class="dropdown-item" href="#">Report</a>
+            </div>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex align-items-center w-100">
+          <img class="rounded-pill" src="img/photo-channel-toshkent.jpg" alt="frontent-group" width="70" height="70">
+          <div class="ml-5">
+            <p class="font-weight-bold m-0">"Toshkent" telekanali</p>
+            <a class="text-decoration-none text-black-50 m-0" href="#">1251 members</a>
+          </div>
+        </div>
+
+        <div class="d-flex mt-5">
+          <img class="mt-1" src="img/infof-icon.svg" alt="info" width="30" height="30">
+          <div class="w-100 d-flex flex-column ml-5  pb-3 p-3 border-bottom">
+            <p class="m-0 font-weight-normal">Eng qiziqarli</p>
+            <p class="m-0 font-weight-normal">Tezkor xabarlar</p>
+            <p class="m-0 font-weight-normal">Ko'ngilochar dasturlar</p>
+            <p class="m-0 font-weight-normal text-black-50">Description</p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center mt-4">
+          <img src="img/notification-icon.svg" alt="notifications" width="25" height="25">
+          <a class="m-0 text-decoration-none text-dark ml-5" href="#">Notifications</a>
+
+          <div class="custom-control custom-switch ml-auto">
+            <input type="checkbox" class="custom-control-input" id="notificationSwitch">
+            <label class="custom-control-label" for="notificationSwitch"></label>
+          </div>
+
+        </div>
+
+<div class="d-flex flex-column mt-5 pt-3 border-top">
+          <ul class="list-unstyled text-left">
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/image-icon.svg" alt="photos" width="30" height=30">
+              <a class="m-0 text-decoration-none text-dark" href="#">1050 photos</a>
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/videocam.svg" alt="videos" width="30" height="30">
+              <a class="m-0 text-decoration-none text-dark" href="#">200 videos</a>
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/file.svg" alt="files" width="25" height="25">
+              <a class="m-0 text-decoration-none text-dark pl-1" href="#">117 files</a>
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/link-icon.svg" alt="links" width="30" height="30">
+              <a class="m-0 text-decoration-none text-dark" href="#">750 shared links</a>
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/voice-icon.svg" alt="voice messages" width="30" height="30">
+              <a class="m-0 text-decoration-none text-dark" href="#">1002 voice messages</a>
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <img class="mr-5" src="img/gif.svg" alt="photos" width="30" height="30">
+              <a class="m-0 text-decoration-none text-dark" href="#">10 GiFs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="d-flex flex-column w-100 flex-grow-1">
+          <div class="d-flex align-items-center justify-content-between w-100">
+            <div class="d-flex align-items-center">
+              <img src="img/ic-group.svg" alt="members" width="25" height="25">
+              <a class="text-decoration-none d-block ml-5 text-dark font-weight-bold" href="#">1251 MEMBERS</a>
+            </div>
+
+            <button class="btn" type="button"><img class="ml-auto" src="img/icon-search.svg" alt="memeber search" width="25" height="25"></button>
+          </div>
+
+          <div class="d-flex flex-column mt-4">
+            <div class="d-flex align-items-center mb-3">
+              <img class="rounded-pill" src="img/user-photo.jpg" alt="avatar" width="50" height="50">
+              <a class="text-decoration-none text-dark ml-5" href="#">
+                <p class="m-0 font-weight-bold">Asror Akmalovich</p>
+                <span class="text-black-50">last seen recently</span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <img class="rounded-pill" src="img/photo-channel-trol.jpg" alt="avatar" width="50" height="50">
+              <a class="text-decoration-none text-dark ml-5" href="#">
+                <p class="m-0 font-weight-bold">Trol.uz</p>
+                <span class="text-success">online</span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <img class="rounded-pill" src="img/photo-channel.jpg" alt="avatar" width="50" height="50">
+              <a class="text-decoration-none text-dark ml-5" href="#">
+                <p class="m-0 font-weight-bold">Toshkent</p>
+                <span class="text-black-50">last seen just now</span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <img class="rounded-pill" src="img/photo-mdk.jpg" alt="avatar" width="50" height="50">
+              <a class="text-decoration-none text-dark ml-5" href="#">
+                <p class="m-0 font-weight-bold">UzbMDK</p>
+                <span class="text-success">online</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Voice chat Modal -->
+<div class="voice-chat-modal modal fade" id="voice_chat_modal" tabindex="-1" aria-labelledby="voice_chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="voice-chat-modal__modal-header p-4">
+        <h5 class="voice-chat-modal__modal-title" id="voice_chat_modalLabel">Start Voice Chat as...</h5>
+        <p class="voice-chat-modal__modal-info">Choose whether you want to be displayed as your personal accounr or as your channel</p>
+
+      </div>
+      <div class="modal-body">
+
+          <div class="d-flex flex-column w-100 flex-grow-1">
+
+            <div class="d-flex flex-column mt-4">
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/user-photo.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Asror Akmalovich</p>
+                  <span class="text-black-50">last seen recently</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-channel-trol.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Trol.uz</p>
+                  <span class="text-success">online</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-channel.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Toshkent</p>
+                  <span class="text-black-50">last seen just now</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-mdk.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">UzbMDK</p>
+                  <span class="text-success">online</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/user-photo.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Asror Akmalovich</p>
+                  <span class="text-black-50">last seen recently</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-channel-trol.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Trol.uz</p>
+                  <span class="text-success">online</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-channel.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">Toshkent</p>
+                  <span class="text-black-50">last seen just now</span>
+                </a>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img class="rounded-pill" src="img/photo-mdk.jpg" alt="avatar" width="50" height="50">
+                <a class="text-decoration-none text-dark ml-5" href="#">
+                  <p class="m-0 font-weight-bold">UzbMDK</p>
+                  <span class="text-success">online</span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn text-info" data-dismiss="modal">CANCEL</button>
+        <button type="button" class="btn text-info">CONTINUE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
