@@ -22,38 +22,38 @@
 }
 
 .channels::before {
-display: block;
-content: "";
-width: 20px;
-height: 20px;
-background-image: url("../img/ic-channel.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-margin-right: 10px;
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ic-channel.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 .bots::before {
   display: block;
-content: "";
-width: 20px;
-height: 20px;
-background-image: url("../img/ic-bot.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-margin-right: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ic-bot.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
 }
 .tg-groups::before {
   display: block;
-content: "";
-width: 20px;
-height: 20px;
-background-image: url("../img/ic-group.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-margin-right: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ic-group.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 .tg-menu-modal__modal-dialog {
@@ -61,7 +61,7 @@ margin-right: 10px;
 }
 
 .modal-settings-wrapper {
-height: 80vh;
+  height: 80vh;
 }
 
 .tg-menu-modal.fade .modal-dialog {
